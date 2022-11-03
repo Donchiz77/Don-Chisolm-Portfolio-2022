@@ -11,14 +11,19 @@ $primary-color: #ffd700;
   font-family: 'La Belle Aurore';
   src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
 }
-// potential issue with coolvetica font stye will revise/revisit later
+// potential issue with coolvetica font stye will revise/revisit later//
 @font-face {
   font-family: 'Coolvetica';
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
+input, 
+textarea {
+  font-family: 'Helvetica Neue';
+}
 
-//Orginnal app styling code saved just in case as back up
+
+//Original app styling code saved just in case as back up
 // .App {
 //   text-align: center;
 // }
