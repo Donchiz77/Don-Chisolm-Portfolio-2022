@@ -7,6 +7,16 @@ $primary-color: #ffd700;
   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
 }
 
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+// potential issue with coolvetica font stye will revise/revisit later
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
 
 //Orginnal app styling code saved just in case as back up
 // .App {
